@@ -43,13 +43,13 @@ local Players_LocalPlayer = game.Players.LocalPlayer
 local table_1 = {}
 
 for v_u_8 = 1, 10 do
-	if Workspace:GetChildren()[v_u_8].Name == GameObject.Name then
-		local v_u_9 = Workspace:GetChildren()[v_u_8]
-		local v_u_10 = QuestData.Function(Players_LocalPlayer, QuestData.Quests[1])
+    if Workspace:GetChildren()[v_u_8].Name == GameObject.Name then
+        local v_u_9 = Workspace:GetChildren()[v_u_8]
+        local v_u_10 = QuestData.Function(Players_LocalPlayer, QuestData.Quests[1])
 
-		local v_u_11 = GamepassData.Check(Players_LocalPlayer, v_u_9, v_u_10)
-		table.insert(table_1, v_u_11)
-	end
+        local v_u_11 = GamepassData.Check(Players_LocalPlayer, v_u_9, v_u_10)
+        table.insert(table_1, v_u_11)
+    end
 end
 
 return table_1
