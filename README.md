@@ -55,20 +55,21 @@ end
 return table_1
 ```
 
-# Usage
+## Usage
 
-## Websocket
+### Websocket
 
 1. Download `cleaner_websocket.exe` from releases
 2. Run the file, a message should pop up with "running at ws://`address`:`port`
 3. Connect to the webscoket however you like
 4. The websocket will take in a string of lua code and return it cleaned
 
-## Executable
+### Executable
+(Executable will be changed to be more intuitive at a later date)
 
 1. Download `cleaner.exe` from releases
 2. Create an `input.lua` file in the same directory
 3. Place desired code into the `input.lua` file
 4. Run `cleaner.exe`, output will be placed in the `output.lua` file (created automatically)
 
-### Executable will be changed to be more intuitive at a later date
+
