@@ -1,5 +1,3 @@
-# DecompOutputCleaner
-
 ## Description
 This project aims to enhance the readability of decompiled output, making it more understandable,
 
