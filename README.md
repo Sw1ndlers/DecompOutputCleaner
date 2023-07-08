@@ -59,7 +59,7 @@ return table_1
 
 ### Websocket
 
-1. Download `cleaner_websocket.exe` from releases
+1. Download `cleaner-websocket.exe` from releases
 2. Run the file, a message should pop up with "running at ws://`address`:`port`
 3. Connect to the webscoket however you like
 4. The websocket will take in a string of lua code and return it cleaned
