@@ -3,7 +3,7 @@ This project aims to enhance the readability of decompiled output, making it mor
 
 ## Demonstration
 
-### An example of sentinel v3 decompiled output
+### An example of sentinel v3 decompiled output*
 ```lua
 local v_u_1 = game:GetService("ReplicatedStorage")
 local v_u_2 = game:GetService("Workspace")
@@ -54,3 +54,4 @@ end
 
 return table_1
 ```
+* not actual output but closesly resembles what actual output looks like
