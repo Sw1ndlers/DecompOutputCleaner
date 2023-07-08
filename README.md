@@ -71,3 +71,4 @@ return table_1
 3. Place desired code into the `input.lua` file
 4. Run `cleaner.exe`, output will be placed in the `output.lua` file (created automatically)
 
+### Executable will be changed to be more intuitive at a later date
