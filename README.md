@@ -22,7 +22,7 @@ for v_u_8 = 1, 10 do
         local v_u_10 = v_u_3.Function(v_u_6, v_u_3.Quests[1])
 
         local v_u_11 = v_u_4.Check(v_u_6, v_u_9, v_u_10)
-		table.insert(v_u_7, v_u_11)
+        table.insert(v_u_7, v_u_11)
     end
 end
 
