@@ -15,13 +15,11 @@ use std::{
     time::Instant
 };
 
-
 use ws::listen;
 
-
 fn main() {
-    println!("WebSocket server is listening on ws://127.0.0.1:3000");
-    if let Err(error) = listen("127.0.0.1:3000", |out: ws::Sender| {
+    println!("WebSocket server is listening on ws://localhost:3000");
+    if let Err(error) = listen("localhost:3000", |out: ws::Sender| {
         // The handler needs to take ownership of out, so we use move
         move |msg: ws::Message| {
             println!("Received message");
@@ -75,8 +73,6 @@ fn main() {
         }
     }) {
         println!("Failed to create WebSocket due to {:?}", error);
-    } 
-
-    
+    }     
 }
 

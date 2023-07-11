@@ -18,3 +18,8 @@ path = "src/websocket.rs"
 [[bin]]
 name = "main"
 path = "src/main.rs"
+
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
