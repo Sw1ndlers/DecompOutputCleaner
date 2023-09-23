@@ -1,5 +1,5 @@
 ## Description
-This project aims to enhance the readability of decompiled output, making it more understandable,
+A rust project to make decompiled code more readable
 
 ## Demonstration
 
