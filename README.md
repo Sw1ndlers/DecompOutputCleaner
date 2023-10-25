@@ -1,5 +1,6 @@
 ## Description
-A rust project to make decompiled code more readable
+A rust project to make decompiled code more readable  
+My first actual rust project so the code could use some work
 
 ## Demonstration
 
